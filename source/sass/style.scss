@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+@import "normalize.scss";
+@import "mixins.scss";
+
+@import "/source/sass/blocks/advantages.scss";
+@import "/source/sass/blocks/comment.scss";
+@import "/source/sass/blocks/contacts.scss";
+@import "/source/sass/blocks/copyright.scss";
+@import "/source/sass/blocks/form-contest.scss";
+@import "/source/sass/blocks/form-post.scss";
+@import "/source/sass/blocks/get-application.scss";
+@import "/source/sass/blocks/main-nav.scss";
+@import "/source/sass/blocks/page-footer.scss";
+@import "/source/sass/blocks/page-header.scss";
+@import "/source/sass/blocks/page-main.scss";
+@import "/source/sass/blocks/photo-day.scss";
+@import "/source/sass/blocks/photos-list.scss";
+@import "/source/sass/blocks/price.scss";
+@import "/source/sass/blocks/reviews.scss";
+@import "/source/sass/blocks/site-list.scss";
+@import "/source/sass/blocks/social.scss";
