@@ -1,3 +1,34 @@
 .page-footer {
+  width: 320px;
+  margin: 0 auto;
   background-color: #ffffff;
+}
+
+.page-footer__logo-image {
+  display: block;
+  margin: 40px auto;
+}
+
+.social__list {
+  display: flex;
+  justify-content: space-between;
+  width: 170px;
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.social__item {
+  width: 45px;
+  height: 45px;
+  opacity: 0.1;
+  border: solid 3px #283645;
+  border-radius: 50%;
+  font-size: 8px;
+}
+
+.page-footer__copyright {
+  padding: 30px;
+  text-align: center;
+  color: #283645;
 }

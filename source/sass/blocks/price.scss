@@ -1,3 +1,41 @@
 .price {
+  width: 320px;
+  min-height: 255px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+}
+
+.price__list {
+  padding: 0;
+  padding-top: 50px;
+  list-style: none;
+}
+
+.price__title-wrapper {
+  background-color: #283645;
+}
+
+.price__title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.price__value {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.price__option {
   background-color: #ffffff;
+}
+
+.price__toggles {
+  padding: 20px;
+  text-align: center;
 }

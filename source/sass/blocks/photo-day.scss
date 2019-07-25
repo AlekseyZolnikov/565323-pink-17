@@ -1,8 +1,20 @@
+.photo-day {
+  position: relative;
+}
+
 .photo-day__title {
+  position: absolute;
+  right: 10px;
+  margin: 0;
+  padding: 10px;
   font-size: 12px;
   font-weight: bold;
   color: #ffffff;
 
   text-transform: uppercase;
   background-color: #d22856;
+}
+
+.photo-day__image {
+  display: block;
 }

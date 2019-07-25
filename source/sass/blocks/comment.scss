@@ -1,4 +1,7 @@
 .comment {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 20px;
   background-color: #f2f2f2;
 }
 
@@ -9,10 +12,12 @@
 
 .comment__time {
   font-weight: 300;
+  color: #283645;
 }
 
 .comment__text {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 24px;
   font-weight: 300;
 }
 
@@ -20,4 +25,7 @@
   color: #d22856;
   text-transform: uppercase;
   font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+
 }

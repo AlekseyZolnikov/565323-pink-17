@@ -1,17 +1,44 @@
 .get-application {
+  position: relative;
+  width: 320px;
+  min-height: 725px;
+  margin: 0 auto;
+
+  background: url("..//img/iphone-hand-mobile@1x.png") no-repeat 50% center,
+              url("..//img/bg-back-mobile@1x.jpg") no-repeat top center;
+}
+
+.get-application__wrapper {
+  position: absolute;
+  bottom: 0;
+  min-height: 271px;
+
+  text-align: center;
   color: #ffffff;
-  background-color: #000000;
+  background-color: #283645;
 }
 
 .get-application__button {
+  width: 280px;
+  margin-top: 20px;
   color: #ffffff;
-  border: solid 3px #ffffff;
+  border-color: #ffffff;
 }
 
 .get-application__list {
   display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-left: 60px;
+  margin-right: 60px;
   color: #ffffff;
   list-style: none;
+}
+
+.get-application__item {
+  width: 50px;
+  font-size: 10px;
+  outline: solid 1px #ffffff;
 }
 
 .get-application__link {
@@ -19,6 +46,9 @@
 }
 
 .get-application__info {
+  margin: 20px;
   color: #ffffff;
+  font-size: 14px;
   font-weight: 300;
+
 }

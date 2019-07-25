@@ -1,5 +1,12 @@
 .advantages {
-  background-color: #ffffff;
+  width: 320px;
+  min-height: 900px;
+  margin: 0 auto;
+
+  text-align: center;
+
+  background: url("..//img/iphone-screen-mobile@1x.png") no-repeat center 110%;
+  background-color: #f2f2f2;
 }
 
 .advantages__slogan {
@@ -7,11 +14,13 @@
   font-size: 24px;
   font-weight: 300;
   font-style: normal;
+  background-color: #ffffff;
 }
 
 .advantages__list {
   list-style: none;
-  background-color: #f2f2f2;
+  padding: 30px;
+
 }
 
 .advantages__title {
@@ -23,7 +32,3 @@
   color: #283645;
 }
 
-.advantages__image {
-  display: block;
-  background-color: #f2f2f2;
-}

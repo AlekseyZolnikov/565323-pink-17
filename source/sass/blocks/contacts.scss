@@ -1,3 +1,33 @@
 .contacts {
+  width: 320px;
+  min-height: 725px;
+  margin: 0 auto;
+  text-align: center;
+  background: url("..//img/bg-map-mobile@1x.png") no-repeat bottom center;
+}
+
+.contacts__wrapper {
+  min-height: 350px;
+  padding: 40px;
+
   background-color: #ffffff;
 }
+
+.contacts__intro {
+  color: #283645;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.contacts__title {
+  color: #283645;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.contacts__text {
+  color: #d22856;
+  font-size: 24px;
+  font-weight: 300;
+}
+
