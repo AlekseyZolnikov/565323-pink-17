@@ -3,26 +3,30 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Пинк - Конкурс</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
   <header class="page-header">
-    <a class="page-header__logo-link" href="index.html">
-      <img class="page-header__logo-image logo-mobile" src="img/logo-mobile.svg" width="75" height="22" alt="Логотип PINK">
-    </a>
+      <div class="page-header__logo-wrapper">
+        <a class="page-header__logo-link">
+          <img class="page-header__logo-image logo-mobile" src="img/logo-pink-white-mobile.svg" width="75" height="22" alt="Логотип PINK">
+        </a>
+        <button class="main-nav__toggle" type="button">Меню</button>
+      </div>
     <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">Открыть меню</button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
-          <a href="index.html">Главная</a>
+          <a class="site-list__link" href="index.html">Главная</a>
         </li>
         <li class="site-list__item">
-          <a href="photo.html">Фотографии</a>
+          <a class="site-list__link" href="photo.html">Фотографии</a>
         </li>
         <li class="site-list__item">
-          <a>Конкурс</a>
+          <a class="site-list__link">Конкурс</a>
         </li>
         <li class="site-list__item">
-          <a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+          <a class="site-list__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
         </li>
       </ul>
     </nav>
@@ -111,7 +115,7 @@
   <footer class="page-footer">
     <div class="page-footer__wrapper">
       <a class="page-footer__logo-link" href="index.html">
-        <img class="page-footer__logo-image logo-tablet" src="http://placehold.it/147x40" width="147" height="40" alt="Логотип PINK">
+        <img class="page-footer__logo-image logo-tablet" src="..//img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Логотип PINK">
       </a>
       <div class="page-footer__social social">
         <ul class="social__list">
@@ -128,7 +132,7 @@
       </div>
       <div class="page-footer__copyright copyright">
         <span class="copyright__text">Разработано</span>
-        <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <a class="copyright__link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
       </div>
     </div>
   </footer>
