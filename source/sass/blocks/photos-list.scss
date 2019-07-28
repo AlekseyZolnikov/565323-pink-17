@@ -8,7 +8,51 @@
   margin-bottom: 15px;
 }
 
-.photos-list__user-photo {
+.photos-list__photo {
   display: block;
+  box-sizing: border-box;
   margin: 0 auto;
+
+  width: 280px;
+  height: 180px;
+}
+
+@media (min-width: $tablet-width) {
+
+  .photos-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .photos-list__item {
+    width: 300px;
+    &:nth-child(odd) {
+      margin-right: 20px;
+    }
+  }
+
+  .photos-list__photo {
+    width: 300px;
+    height: 300px;
+    padding-left: 300px;
+
+    background-image: url("http://placehold.it/300x300");
+    background-repeat: no-repeat;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .photos-list__item {
+    margin-right: 20px;
+    &:nth-child(3n) {
+      margin-right: 0;
+    }
+  }
+
+  .photos-list__photo {
+    height: 400px;
+
+    background-image: url("http://placehold.it/300x400");
+  }
 }

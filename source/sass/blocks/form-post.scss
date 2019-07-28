@@ -1,10 +1,13 @@
 .form-post {
+  margin: 0 -20px;
+
   background-color: #f2f2f2;
 }
 
 .form-post__title {
   margin: 0;
   padding: 50px 35px;
+
   text-align: center;
   font-size: 14px;
   font-weight: normal;
@@ -47,4 +50,15 @@
   color: #283645;
   border-color: #283645;
   opacity: 0.1;
+}
+
+@media (min-width: $tablet-width) {
+
+  .form-post__wrapper {
+    display: flex;
+  }
+
+  .form-post__tools {
+    padding-top: 150px;
+  }
 }

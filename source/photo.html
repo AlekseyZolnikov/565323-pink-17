@@ -38,7 +38,7 @@
       </p>
       <section class="photo-day">
         <h2 class="photo-day__title">Панорама дня</h2>
-        <img class="photo-day__image" src="..//img/panorama-mobile@1x.jpg" width="320" height="137" alt="Панорама дня">
+        <img class="photo-day__image" src="..//img/panorama-mobile@1x.jpg" alt="Панорама дня">
         <div class="comment">
           <b class="comment__user-name">Анна</b>
           <span class="comment__time">(5 минут назад)</span>
@@ -50,7 +50,7 @@
       </section>
       <ul class="photos-list">
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -61,7 +61,7 @@
           </div>
         </li>
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -72,7 +72,7 @@
           </div>
         </li>
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -83,7 +83,7 @@
           </div>
         </li>
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -94,7 +94,7 @@
           </div>
         </li>
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -105,7 +105,7 @@
           </div>
         </li>
         <li class="photos-list__item">
-          <img class="photos-list__user-photo" src="http://placehold.it/280x180" width="280" height="180" alt="Фото пользователя">
+          <img class="photos-list__photo" src="http://placehold.it/280x180" alt="Фото пользователя">
           <div class="comment">
             <b class="comment__user-name">Левон</b>
             <span class="comment__time">(5 часов назад)</span>
@@ -118,26 +118,28 @@
       </ul>
       <form class="form-post" method="post" action="https://echo.htmlacademy.ru">
         <p class="form-post__title">Затмите их всех!<br> Выкладывайте все, что накопилось в телефоне!</p>
-        <img class="form-post__photo" src="http://placehold.it/280x374" width="280" height="374" alt="Добавленное фото">
-        <div class="form-post__tools">
-          <div class="form-post__tools-buttons">
-            <button class="form-post__tool form-post__tool--crop button" type="button">Обрезать</button>
-            <button class="form-post__tool form-post__tool--fill button" type="button">Залить</button>
-            <button class="form-post__tool form-post__tool--contrast button" type="button">Контраст</button>
+        <div class="form-post__wrapper">
+          <img class="form-post__photo" src="http://placehold.it/280x374" alt="Добавленное фото">
+          <div class="form-post__tools">
+            <div class="form-post__tools-buttons">
+              <button class="form-post__tool form-post__tool--crop button" type="button">Обрезать</button>
+              <button class="form-post__tool form-post__tool--fill button" type="button">Залить</button>
+              <button class="form-post__tool form-post__tool--contrast button" type="button">Контраст</button>
+            </div>
+            <div class="form-post__range-controls">
+              <div class="form-post__range-controls-scale"></div>
+              <div class="form-post__range-controls-toggle"></div>
+            </div>
+            <button class="form-post__submit button" type="submit">Запостить</button>
+            <button class="form-post__cancel button" type="button">Отмена</button>
           </div>
-          <div class="form-post__range-controls">
-            <div class="form-post__range-controls-scale"></div>
-            <div class="form-post__range-controls-toggle"></div>
-          </div>
-          <button class="form-post__submit button" type="submit">Запостить</button>
-          <button class="form-post__cancel button" type="button">Отмена</button>
         </div>
       </form>
     </main>
     <footer class="page-footer container">
       <div class="page-footer__wrapper">
         <a class="page-footer__logo-link" href="index.html">
-          <img class="page-footer__logo-image logo-tablet" src="..//img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Логотип PINK">
+          <img class="page-footer__logo-image logo-tablet" src="img/logo-pink-blue-mobile.svg" width="147" height="40" alt="Логотип PINK">
         </a>
         <div class="page-footer__social social">
           <ul class="social__list">

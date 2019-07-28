@@ -16,7 +16,7 @@
 }
 
 .page-main__intro {
-  margin: 0;
+  margin: 0 -20px;
   padding: 55px 40px;
   text-align: center;
 
@@ -36,7 +36,7 @@
   }
 
   .page-main__title {
-    padding: 80px;
+    padding: 150px;
   }
 }
 
@@ -45,5 +45,8 @@
   .page-main {
     background-image: url("..//img/bg-back-desktop@1x.jpg");
   }
-}
 
+  .page-main__intro {
+    margin: 0 -130px;
+  }
+}
