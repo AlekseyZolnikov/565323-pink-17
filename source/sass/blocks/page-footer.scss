@@ -1,6 +1,4 @@
 .page-footer {
-  width: 320px;
-  margin: 0 auto;
   background-color: #ffffff;
 }
 
@@ -21,6 +19,7 @@
 .social__item {
   width: 45px;
   height: 45px;
+
   opacity: 0.1;
   border: solid 3px #283645;
   border-radius: 50%;
@@ -28,7 +27,33 @@
 }
 
 .page-footer__copyright {
-  padding: 30px;
+  padding: 40px;
   text-align: center;
   color: #283645;
+}
+
+@media (min-width: $tablet-width) {
+
+  .page-footer {
+
+    .visually-hidden {
+      display: block;
+    }
+
+    .page-footer__wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .social__list {
+      margin-top: 30px;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .page-footer__wrapper {
+    justify-content: space-between;
+  }
 }

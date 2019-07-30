@@ -1,0 +1,65 @@
+.tariffs {
+  min-height: 255px;
+  margin: 0 -20px;
+  background-color: #f2f2f2;
+}
+
+.tariffs__list {
+  padding: 0;
+  padding-top: 50px;
+  list-style: none;
+}
+
+.tariffs__item:not(:nth-child(2)) {
+  display: none;
+}
+
+.tariffs__title-wrapper {
+  background-color: #283645;
+}
+
+.tariffs__title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.tariffs__value {
+  color: #ffffff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.tariffs__option {
+  background-color: #ffffff;
+}
+
+.tariffs__toggles {
+  padding: 20px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+
+  .tariffs__list {
+    display: flex;
+    padding: 20px;
+  }
+
+  .tariffs__item:not(:nth-child(2)) {
+    display: block;
+  }
+
+  .tariffs__item {
+    width: 200px;
+  }
+
+  .tariffs__toggles {
+    display: none;
+  }
+}
+

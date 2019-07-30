@@ -1,12 +1,56 @@
 .form-contest {
   background-color: #ffffff;
+  margin: 0 -20px;
+}
+
+.form-contest fieldset {
+  border: none;
+}
+
+.form-contest {
+  .label {
+    color: #d22856;
+    text-transform: uppercase;
+  }
+}
+
+.form-contest__achievements {
+  background-color: #f2f2f2;
+}
+
+.form-contest__application {
+  background-color: #f2f2f2;
 }
 
 .form-contest__submit {
   width: 280px;
   margin-top: 20px;
   color: #ffffff;
-  border-color: #ffffff;
+  border: none;
   background-color: #2aab6d;
-  border-radius: 1px;
+  border-radius: 3px;
+}
+
+@media (min-width: $tablet-width) {
+
+  .form-contest fieldset {
+    border: 2px solid #e5e5e5;
+  }
+
+  .form-contest__achievements {
+    background-color: #ffffff;
+  }
+
+  .form-contest__application {
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: $desktop-width) {
+
+  .form-contest {
+    margin: 0 -130px;
+  }
+
+
 }
