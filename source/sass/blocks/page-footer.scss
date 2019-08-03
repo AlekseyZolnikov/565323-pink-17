@@ -33,9 +33,7 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .page-footer {
-
     .visually-hidden {
       display: block;
     }
@@ -52,7 +50,6 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .page-footer__wrapper {
     justify-content: space-between;
   }

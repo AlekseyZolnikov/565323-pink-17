@@ -1,10 +1,10 @@
 .get-application {
   position: relative;
-  min-height: 660px;
+  min-height: 732px;
 
   background-image: url("..//img/iphone-hand-mobile@1x.png");
   background-repeat: no-repeat;
-  background-position: 50% center;
+  background-position: center 185px;
 }
 
 .get-application__wrapper {
@@ -63,7 +63,6 @@
 }
 
 @media (min-width: $tablet-width) {
-
   .get-application {
     min-height: 730px;
 
@@ -84,7 +83,6 @@
 }
 
 @media (min-width: $desktop-width) {
-
   .get-application {
     min-height: 850px;
 
