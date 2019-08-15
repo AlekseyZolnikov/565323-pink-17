@@ -1,8 +1,8 @@
-.page-footer {
+.footer {
   background-color: #ffffff;
 }
 
-.page-footer__logo-image {
+.footer__logo-image {
   display: block;
   margin: 40px auto;
 }
@@ -26,19 +26,19 @@
   font-size: 8px;
 }
 
-.page-footer__copyright {
+.footer__copyright {
   padding: 40px;
   text-align: center;
   color: #283645;
 }
 
 @media (min-width: $tablet-width) {
-  .page-footer {
+  .footer {
     .visually-hidden {
       display: block;
     }
 
-    .page-footer__wrapper {
+    .footer__wrapper {
       display: flex;
       justify-content: space-between;
     }
@@ -50,7 +50,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .page-footer__wrapper {
+  .footer__wrapper {
     justify-content: space-between;
   }
 }
