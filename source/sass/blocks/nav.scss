@@ -2,7 +2,7 @@
   position: relative;
 }
 
-.nav__logo-link {
+.nav__logo {
   position: absolute;
   left: 0;
   right: 0;
@@ -14,6 +14,22 @@
   box-sizing: border-box;
 
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.nav__logo-mobile {
+  &:hover {
+    fill: #d22856;
+  }
+
+  &:active {
+    fill: #ffffff;
+    opacity: 0.3;
+  }
+}
+
+.nav__logo-tablet,
+.nav__logo-desktop {
+  display: none;
 }
 
 .nav__toggle {
@@ -129,7 +145,7 @@
 }
 
 @media (max-width: $mobile-width-only) {
-  .nav--opened .nav__logo-link {
+  .nav--opened .nav__logo {
     position: relative;
     display: block;
     min-height: 69px;
@@ -166,8 +182,8 @@
 }
 
 @media (min-width: $tablet-width) {
-  .nav--opened .nav__logo-link,
-  .nav--closed .nav__logo-link {
+  .nav--opened .nav__logo,
+  .nav--closed .nav__logo {
     min-height: 110px;
   }
 
@@ -176,14 +192,27 @@
     top: 40px;
   }
 
-  .nav__logo-link {
+  .nav__logo {
     padding-top: 27px;
 
-    .nav__logo-image {
+    .nav__logo-mobile {
+      display: none;
+    }
+
+    .nav__logo-tablet {
+      display: block;
       width: 147px;
       height: 40px;
+
+      &:hover {
+        fill: #d22856;
+      }
+
+      &:active {
+        fill: #ffffff;
+        opacity: 0.3;
+      }
     }
-  }
 
   .nav--opened .nav__list {
     margin-bottom: -110px;
@@ -205,11 +234,20 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
 
-  .nav__logo-link {
+  .nav__logo {
     position: relative;
     margin-left: 110px;
     background-color: transparent;
+
+    .nav__logo-tablet {
+      display: none;
+    }
+
+    .nav__logo-desktop {
+      display: block;
+    }
   }
+
 
   .nav__toggle {
     display: none;
