@@ -1,5 +1,6 @@
 .reviews {
   min-height: 260px;
+  padding-top: 50px;
   text-align: center;
   background-color: #ffffff;
 }
@@ -22,6 +23,7 @@
 
   .reviews__text {
     order: 3;
+    line-height: 2.15;
   }
 }
 

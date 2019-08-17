@@ -17,6 +17,8 @@
 }
 
 .nav__logo-mobile {
+  fill: #ffffff;
+
   &:hover {
     fill: #d22856;
   }
@@ -203,6 +205,7 @@
       display: block;
       width: 147px;
       height: 40px;
+      fill: #ffffff;
 
       &:hover {
         fill: #d22856;
@@ -214,8 +217,9 @@
       }
     }
 
-  .nav--opened .nav__list {
-    margin-bottom: -110px;
+    .nav--opened .nav__list {
+      margin-bottom: -110px;
+    }
   }
 }
 

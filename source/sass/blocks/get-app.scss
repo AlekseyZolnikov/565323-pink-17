@@ -1,6 +1,6 @@
 .get-app {
   position: relative;
-  min-height: 732px;
+  min-height: 737px;
 }
 
 .get-app__slogan {
@@ -22,8 +22,9 @@
 .get-app__wrapper {
   position: absolute;
   bottom: 0;
-  min-height: 271px;
+  min-height: 255px;
   margin: 0 -20px;
+  padding-top: 22px;
   z-index: 2;
 
   text-align: center;
@@ -34,7 +35,7 @@
 
 .get-app__button {
   width: 280px;
-  margin-top: 32px;
+  margin-top: 10px;
   color: #ffffff;
   border-color: #ffffff;
 }
@@ -42,9 +43,12 @@
 .get-app__list {
   display: flex;
   justify-content: space-between;
+
   padding: 0;
-  margin-left: 60px;
-  margin-right: 60px;
+  padding-top: 20px;
+  margin-left: 55px;
+  margin-right: 55px;
+
   color: #ffffff;
   list-style: none;
 }
@@ -52,7 +56,6 @@
 .get-app__item {
   width: 50px;
   font-size: 10px;
-  outline: solid 1px #ffffff;
 }
 
 .get-app__link {
@@ -60,7 +63,7 @@
 }
 
 .get-app__info {
-  margin: 20px;
+  margin: 0 20px;
   color: #ffffff;
   font-size: 14px;
   font-weight: lighter;
